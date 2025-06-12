@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('@/assets/fonts/Satoshi-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@theme {
+    --font-satoshi: "Satoshi", sans-serif; 
+    --font-inter: "Inter", sans-serif;
+    --color-dark-gray: #192024;
+    --color-neutral-gray: #989898;
+}
+
+body {
+    font-family: var(--font-inter);
+}

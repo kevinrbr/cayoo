@@ -2,11 +2,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
   }
-  
-/* 2. Remove default margin */
-* {
-    margin: 0;
-}
 
 body {
     /* 4. Add accessible line-height */
@@ -19,11 +14,6 @@ body {
 img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
-}
-
-/* 7. Inherit fonts for form controls */
-input, button, textarea, select {
-    font: inherit;
 }
 
 /* 8. Avoid text overflows */

@@ -1,8 +1,9 @@
 <script setup lang="ts">
+import Hero from '@/components/home/Hero.vue';
 </script>
 
 <template>
   <main>
-    <p>BOILERPLATE GITHUB VUE.JS</p>
+    <Hero />
   </main>
 </template>
