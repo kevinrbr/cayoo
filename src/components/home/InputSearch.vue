@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-
+import { Button } from '@/components/ui/button';
 
 const location = ref<string>('');
 </script>
@@ -27,6 +27,6 @@ const location = ref<string>('');
             <label class="text-dark-gray text-xs" for="to">Départ</label>
             <input class="text-sm text-neutral-gray" v-model="location" id="to" placeholder="Aeroport, gare, ville"/>
         </div>
-
+        <Button />
     </div>
 </template>
