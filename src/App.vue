@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import { Button } from '@/components/ui/button';
+import SignIn from '@/components/common/SignIn.vue';
 </script>
 
 <template>
@@ -11,21 +12,16 @@ import { Button } from '@/components/ui/button';
           cayoo
         </RouterLink>
 
-        <nav class="flex items-center gap-10 text-white font-inter mt-2">
-          <RouterLink to="/">A propos</RouterLink>
-
-          <div class="flex items-center gap-10">
+        <nav class="flex items-center gap-20 text-white font-inter mt-2">
+            <RouterLink to="/">A propos</RouterLink>
             <RouterLink to="/">Nos loueurs</RouterLink>
             <RouterLink to="/">Contact</RouterLink>
             <RouterLink to="/">Aide</RouterLink>
-          </div>
         </nav>
       </div>
       <div class="flex items-center gap-8">
         <RouterLink to="/" class="text-white">Connexion</RouterLink>
-        <Button variant="outline" size='lg'>
-          Inscription
-        </Button>
+        <SignIn />
       </div>
     </div>
   </header>
